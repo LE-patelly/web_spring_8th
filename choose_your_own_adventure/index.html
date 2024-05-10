@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellie | Choose Your Own Adventure Game</title>
+</head>
+<body>
+    <script> 
+    function playGame () {
+    var enter = confirm("Hello! do you want to go on the best Hike of your life?");
+    alert(enter);
+    if (enter == true) {
+        //we enter the cabin
+        alert("Great! lets go on a hike! I will hand it off to Gabin! Hello fellow hiker! I am your camp guide and will let you pick your route! Out here in the wilderness we have many beautiful sights! Will you return? Well you signed a waver so you can choose that! Lets continue!");
+
+        var pathChoice = prompt ("You start the hike and it comes to a cross roads!There are 3 paths! Path one is a beautiful forest hike. Path 2 is a beautiful hike with a sign saying river side! Lastly, path 3 is a beautiful moutain hike with a bunch of vally sights! Do you want to go down path 1, 2, or 3");
+        if (pathChoice == 1) {
+            alert("You take an amazing hike through the deep forests and you encounter a big open area. It has a lot of space to make camp! And a lot of shade!");
+            var campChoice = prompt("As you know there is massive open space! do you want to make camp? You can also turn back. Please type yes, no or turn back.");
+            if (campChoice == "yes"){
+                alert("I'm sorry! The camp was infested with hornet nests in the ground and wasp nest in the trees. You die.");
+            } else if (campChoice == "no"){
+                alert("You keep going! your legs hurt and you pulled your hamstring and stprained your ancle! However the scenery is amazing!");
+                var injured = prompt ("Because your legs are so hurt, you may not be able to make it! Do you choose to take the odds and keep going? Turn back and camp at the last camp? or sleep in a tree? Please type odds, turn back, or tree");
+                if (injured == "odds") {
+                    alert ("You reach the trail head! You have shelter and there is another hiker who is a doctor! Congratulations you have completed the Game!");
+                } else if (injured == "turn back") {
+                    alert ("I'm sorry! The camp was infested with hornet nests in the ground and wasp nest in the trees. You die. ");
+                } else if (injured == "tree") {
+                    alert ("The tree branch snaps because it was rotten and you fall to your death");
+                } else {
+                    alert ("Please Try Again");
+                }
+            } else if (campChoice == "turn back") {
+                alert("you get lost on your way back and die of therst")
+            } else (campChoice)
+                alert("Please try again!");
+        } else if (pathChoice == 2) {
+            alert("I'm sorry! You were taking a nice swim in the river and didn't realize that there were massive fish with sharp teeth. You did not survive.");
+        } else if (pathChoice ==3){
+            alert ("I'm sorry! You didn't realize that there was a no step sign and the rocks were unstable. You fell to your death.");
+        } else {
+            alert("Please try again");
+        }
+
+    } else {
+        //we do not enter cabin
+        alert ("You decided to not go on this magnificant hike, you return home. GAME OVER");
+       
+    }
+    var playAgain = confirm("Do You Want to Play Again?");
+    if(playAgain == true) {
+        playGame();
+    }
+}
+    playGame(); 
+    
+
+    </script>
+</body>
+</html>
