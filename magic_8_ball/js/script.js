@@ -7,11 +7,11 @@ function magic8ball(){
 
 function askAQuestion() {
     // this does nothing
-    alert("Ask a yes/no question and recieve my imput HAHAHAHAHA")
+    //alert("Ask a yes/no question and recieve my imput HAHAHAHAHA")
 }
 
 function shake(){
-    alert ("Im SHAKING RNNNNNNNNNN")
+    //alert ("Im SHAKING RNNNNNNNNNN")
 }
 function getAFortune() {
     //random
@@ -23,7 +23,7 @@ function getAFortune() {
 }
 
 function displayFortune(fortune){
-    alert(fortune)
+    //alert(fortune)
     document
     .getElementById("fortune")
     .innerHTML = fortune

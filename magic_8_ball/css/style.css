@@ -11,12 +11,15 @@ body {
 }
 
 #triangle{
-    background-color: blue;
     background-image: url("images/8ball_bluetriangle.svg");
     background-position: center;
     margin:0px;
-    height: 160px;
-    width:170px;
+    margin-left: 20%;
+    height: 0;
+    width:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #0f0;
     vertical-align: bottom;
     cursor: pointer;
 }
