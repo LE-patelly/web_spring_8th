@@ -1,0 +1,76 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border:5px solid white;
+    padding:50px;
+    background-color:lightblue;
+}
+
+.nav{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav li {
+    display: inline;
+    margin-right:20px
+}
+.nav a {
+    text-decoration: none;
+}
+
+.imagebridgestyle {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-list {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+.center-listtwo {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+#scheduleimage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+#hungergames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sports {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10pxs;
+}
+
+.interests {
+   
+    font-size: 20px;
+    color:rgb(1, 56, 78);
+    background-color: rgb(236, 253, 253);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.divyay {
+    font-size: 20px;
+    color:rgb(1, 56, 78);
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+}
